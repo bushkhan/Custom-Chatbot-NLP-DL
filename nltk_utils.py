@@ -22,8 +22,5 @@ def bag_of_words(tokenized_sentence,all_words):
     
     return bag
 
-sentence = ["hello", "how", "are", "you"]
-words = ["hi","hello","I","you","bye","thanks","cools"]
-print(bag_of_words(sentence,words))
 
 
