@@ -12,11 +12,9 @@ def stem(word):
 
 a = "I think I have anxiety"
 a = tokenize(a)
-print(a)
 
 words = ['stressed', 'stressing', 'stress']
 stemmed_words = [stem(i) for i in words] 
-print(stemmed_words)
 
 
 def bag_of_words(tokenized_sentence,all_words):
