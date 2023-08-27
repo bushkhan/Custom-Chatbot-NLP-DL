@@ -24,7 +24,7 @@ model = NeuralNet(input_size, hidden_size, output_size).to(device)
 model.load_state_dict(model_state)
 model.eval()
 
-bot_name = "Amy"
+bot_name = "EaseBot"
 print("Let's chat! type 'quit to exit")
 while True:
     
